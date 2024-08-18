@@ -21,7 +21,7 @@ const Navbar = () => {
             component="div"
             sx={{ flexGrow: 1, fontFamily: "Lobster" }}
           >
-            EmployeeApp
+            BlogApp
           </Typography>
           <IconButton
             size="large"

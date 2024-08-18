@@ -53,7 +53,7 @@ const Add = () => {
           >
            <TextField
              variant="outlined"
-            placeholder="Employee Name"
+            placeholder="Blog Name"
            onChange={inputHandler}
              name="EmpName"
              value={inputs.EmpName} 
@@ -62,7 +62,7 @@ const Add = () => {
 
             <TextField
               variant="outlined"
-              placeholder="Designation"
+              placeholder="Blog Type"
               onChange={inputHandler}
               name="designation"
               value={inputs.designation}
@@ -70,7 +70,7 @@ const Add = () => {
             />
              <TextField
               variant="outlined"
-              placeholder="Employee Id"
+              placeholder="Blog No"
               onChange={inputHandler}
               name="empId"
               value={inputs.empId}
